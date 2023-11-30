@@ -1,17 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Drawing;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using Tesseract;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace MyOCR
 {
     internal class OcrActions
     {
+        public static bool saveToClipboard = false;
         public static bool ValidatorExtension(string ImagePath)
         {
             var ImageExtensions = new List<string>()
@@ -23,11 +27,11 @@ namespace MyOCR
                 {".png"},
                 {".tif"},
                 {".tiff"},
+                {".pdf"},
             };
 
             return ImageExtensions.Contains(ImagePath);
         }
-
         public static void ImageToText(string ImagePath, string language = "por", bool iterator = false)
         {
 
@@ -41,6 +45,8 @@ namespace MyOCR
                         if (ValidatorExtension(Path.GetExtension(ImagePath)))
                         {
                             //ver se são 1 ou varios arquivos
+                            //saida na area de transferencia e em texto
+                            //selecionar area da tela pro ocr
 
                             using (var img = Pix.LoadFromFile(ImagePath))
                             {

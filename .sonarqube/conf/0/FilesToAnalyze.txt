@@ -1,0 +1,12 @@
+﻿C:\Users\019268631\Desktop\Tecnologia\MyOCR\MyOCR\MyOCR\Email.cs
+C:\Users\019268631\Desktop\Tecnologia\MyOCR\MyOCR\MyOCR\OcrActions.cs
+C:\Users\019268631\Desktop\Tecnologia\MyOCR\MyOCR\MyOCR\Program.cs
+C:\Users\019268631\Desktop\Tecnologia\MyOCR\MyOCR\MyOCR\phototest.tif
+C:\Users\019268631\Desktop\Tecnologia\MyOCR\MyOCR\MyOCR\tessdata\eng.traineddata
+C:\Users\019268631\Desktop\Tecnologia\MyOCR\MyOCR\MyOCR\tessdata\pdf.ttf
+C:\Users\019268631\Desktop\Tecnologia\MyOCR\MyOCR\MyOCR\tessdata\por.traineddata
+C:\Users\019268631\Desktop\Tecnologia\MyOCR\MyOCR\MyOCR\tessdata\spa.traineddata
+C:\Users\019268631\.nuget\packages\tesseract\5.2.0\x86\leptonica-1.82.0.dll
+C:\Users\019268631\.nuget\packages\tesseract\5.2.0\x86\tesseract50.dll
+C:\Users\019268631\.nuget\packages\tesseract\5.2.0\x64\leptonica-1.82.0.dll
+C:\Users\019268631\.nuget\packages\tesseract\5.2.0\x64\tesseract50.dll
