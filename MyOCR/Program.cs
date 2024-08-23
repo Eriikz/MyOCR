@@ -9,7 +9,7 @@ namespace MyOCR
     {
         public static void Main(string[] args)
         {
-            string Pathrr = "C:\\Users\\019268631\\Desktop\\2.png";
+            string Pathrr = "C:\\Users\\019268631\\Desktop\\Screenshot_1.png";
 
 
            // Email.EnviarEmail();

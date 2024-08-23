@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyOCR", "MyOCR\MyOCR.csproj", "{638BA3FB-C02E-44D0-8C62-6188EF48E429}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyOCR", "MyOCR\MyOCR.csproj", "{638BA3FB-C02E-44D0-8C62-6188EF48E429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyOcr.API", "MyOcr.API\MyOcr.API.csproj", "{24890A73-F560-46E8-98AD-3BD467F15AE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyOcr.Application", "MyOcr.Application\MyOcr.Application.csproj", "{0806462C-4381-4CB5-8191-6BCE0EC5DD3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyOcr.Domain", "MyOcr.Domain\MyOcr.Domain.csproj", "{13EFF4A2-1676-4451-ACAF-A6603BA05DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyOcr.Infrastructure", "MyOcr.Infrastructure\MyOcr.Infrastructure.csproj", "{27ECEF46-4154-4B0E-B180-928DFBE85E85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyOcr.Tests", "MyOcr.Tests\MyOcr.Tests.csproj", "{23D6FB13-BEF3-4EDC-9D47-A9DDC57C7B58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{638BA3FB-C02E-44D0-8C62-6188EF48E429}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{638BA3FB-C02E-44D0-8C62-6188EF48E429}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{638BA3FB-C02E-44D0-8C62-6188EF48E429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24890A73-F560-46E8-98AD-3BD467F15AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24890A73-F560-46E8-98AD-3BD467F15AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24890A73-F560-46E8-98AD-3BD467F15AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24890A73-F560-46E8-98AD-3BD467F15AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0806462C-4381-4CB5-8191-6BCE0EC5DD3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0806462C-4381-4CB5-8191-6BCE0EC5DD3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0806462C-4381-4CB5-8191-6BCE0EC5DD3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0806462C-4381-4CB5-8191-6BCE0EC5DD3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13EFF4A2-1676-4451-ACAF-A6603BA05DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13EFF4A2-1676-4451-ACAF-A6603BA05DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13EFF4A2-1676-4451-ACAF-A6603BA05DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13EFF4A2-1676-4451-ACAF-A6603BA05DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27ECEF46-4154-4B0E-B180-928DFBE85E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27ECEF46-4154-4B0E-B180-928DFBE85E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27ECEF46-4154-4B0E-B180-928DFBE85E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27ECEF46-4154-4B0E-B180-928DFBE85E85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D6FB13-BEF3-4EDC-9D47-A9DDC57C7B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D6FB13-BEF3-4EDC-9D47-A9DDC57C7B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D6FB13-BEF3-4EDC-9D47-A9DDC57C7B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D6FB13-BEF3-4EDC-9D47-A9DDC57C7B58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,6 @@
+@MyOcr.API_HostAddress = http://localhost:5112
+
+GET {{MyOcr.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
